@@ -1,0 +1,21 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run dev --prefix vite-project",
+    "build": "npm run build --prefix vite-project",
+    "preview": "npm run preview --prefix vite-project"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mobx": "^6.15.0",
+    "mobx-react-lite": "^4.1.1",
+    "react-router-dom": "^7.9.5",
+    "zustand": "^5.0.8"
+  }
+}
